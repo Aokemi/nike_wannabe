@@ -4,6 +4,7 @@ import GlobalStyle from "./styles/GlobalStyle";
 import HeaderComponent from "./Components/Header/Header";
 import Hero from "./Components/HeroSection/HeroSection";
 import Footer from "./Components/Footer/Footer";
+import ProductSection from "./Components/Products/Products";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <div>
               <HeaderComponent />
               <Hero />
+              <ProductSection />
               <Footer />
             </div>
       </>
