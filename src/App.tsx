@@ -3,6 +3,7 @@ import { theme } from "./styles/Theme";
 import GlobalStyle from "./styles/GlobalStyle";
 import HeaderComponent from "./Components/Header/Header";
 import Hero from "./Components/HeroSection/HeroSection";
+import Footer from "./Components/Footer/Footer";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <div>
               <HeaderComponent />
               <Hero />
+              <Footer />
             </div>
       </>
     </ThemeProvider>
